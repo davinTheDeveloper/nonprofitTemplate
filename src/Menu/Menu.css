@@ -1,0 +1,40 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.75);
+  } 
+  
+ .list {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width:120%;
+  }
+  
+  a:link, a:visited, a:active {
+    color: rgb(55, 102, 173);
+    text-decoration: none;
+    font-size: 1.2vw;
+  }
+  
+  .listlink {
+    color: rgb(55, 102, 173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 100%;
+    left: 1vw;
+  }
+
+  .listlink:hover {
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: absolute;
+    top: 10.5vw;
+    left: 2vw;
+  }

@@ -1,0 +1,61 @@
+
+#mission {
+    Display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#body_direction {
+  display: flex;
+  justify-content: center;
+    
+  }
+
+ #mstatement {
+    font-weight: 1000;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 80px;
+    margin-bottom: 0vh;
+    margin-top: 2.5vh;
+  }
+
+  /* .up {
+    margin-bottom: 0vh;
+  } */
+
+  .fade-in-text {
+    font-size: 5vh;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
